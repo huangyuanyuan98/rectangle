@@ -1,6 +1,5 @@
 /* global Rectangle: true */
 $(function(){
-  //console.log("hello");
   var $width   = $('#width'),
       $height  = $('#height'),
       $btnCal  = $('#calculate'),
@@ -12,7 +11,7 @@ $btnCal.click(function(){
   
   var r = new Rectangle(w,h);
   
-  $perimeter.val(r.$perimeter());
+  $perimeter.val(r.perimeter());
   $area.val(r.area());
 })
 });
