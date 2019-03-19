@@ -80,9 +80,13 @@ module.exports = function (grunt) {
     },
     
     concat: {       
-      options: {        
-        separator: ';'
-      },      
+            
+    options: {
+
+            separator: ';'
+
+                  
+    },
       js: {       
         src: ['rectangle.js', 'calc.js'],                
         dest: ['dist/bundle.js']                                                        
@@ -117,4 +121,5 @@ grunt.registerTask('cover', ['mocha_istanbul']);
 grunt.registerTask('check-cover', ['istanbul_check_coverage']);
 grunt.registerTask('unitTest', ['mocha']);
 grunt.registerTask('release', ['copy', 'useminPrepare', 'concat', 'uglify', 'usemin', 'cssmin', 'htmlmin', 'clean']);
+grunt.registerTask('use', ['useminPrepare', 'usemin']);
 };
