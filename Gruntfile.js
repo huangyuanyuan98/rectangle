@@ -63,11 +63,8 @@ module.exports = function(grunt) {
     uglify: {
       release:{
         files: {
-          /*'dist/rectangle.js': 'rectangle.js',
-          'dist/calc.js': 'calc.js'*/
-          'dist/bundle.min.js': 'dist/bundle.js',                                
-        }
-          
+          'dist/bundle.min.js': 'dist/bundle.js',                   
+        } 
       }
     },
     useminPrepare: {
