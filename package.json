@@ -27,7 +27,7 @@
     "grunt-contrib-uglify": "^4.0.0",
     "grunt-eslint": "^21.0.0",
     "grunt-htmlhint": "^0.9.13",
-    "grunt-mocha": "^0.4.12",
+    "grunt-mocha": "^0.4.15",
     "grunt-mocha-cli": "^4.0.0",
     "grunt-mocha-istanbul": "^5.0.2",
     "grunt-usemin": "^3.1.1"
